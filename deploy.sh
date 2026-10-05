@@ -3,7 +3,7 @@
 # Usage: ./deploy.sh
 set -euo pipefail
 cd "$(dirname "${BASH_SOURCE[0]}")"
-SERVER="nfunc"   # ~/.ssh/config alias for the server
+SERVER="nfunc.xyz"   # a Host alias in ~/.ssh/config, the same name on every machine
 REMOTE_PATH="/var/www/pls.nfunc.xyz"
 
 echo "▸ building…"
